@@ -1,0 +1,11 @@
+
+<h1> School Classes Page </h1>
+
+<ul>
+    <% @school_classes.each do |s| %>
+        <li>
+            <h3><%= s.title %> </h3>
+            <p> s.room_number </p>
+        </li>
+    <% end %>
+</ul>
